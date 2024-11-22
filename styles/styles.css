@@ -1,0 +1,143 @@
+@font-face {
+  font-family: geo-regular;
+  src: url(fonts/Geo-Regular.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: silkscreen-bold;
+  src: url(fonts/Silkscreen-Bold.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: bokor-regular;
+  src: url(fonts/Bokor-Regular.ttf) format(truetype);
+}
+
+#logo {
+  color: white;
+  padding-left: 5%;
+}
+
+#predator {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.hero {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  background-size: fill;
+  background-position: center;
+}
+
+#web-logo {
+  padding-left: 5%;
+  font-family: "Bokor-Regular";
+  font-size: 35px;
+  color: white;
+  cursor: wait;
+  letter-spacing: 3px;
+}
+
+#portfolio {
+  color: red;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1%;
+}
+
+.navigation {
+  height: 25px;
+  padding-right: 5px;
+}
+
+ul {
+  display: flex;
+  padding-right: 2%;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+ul a:hover {
+  color: white;
+}
+
+li {
+  padding: 10px 10px;
+  list-style: none;
+}
+
+ul li a {
+  color: red;
+  text-decoration: none;
+  display: flex;
+  align-items: center; 
+}
+
+#description {
+  color: white;
+}
+
+#hii {
+  color: white;
+}
+
+#comma {
+  color: red;
+  font-size: 50px;
+}
+
+#name {
+  color: white;
+  font-family: "Silkscreen-Bold";
+}
+
+#aditya {
+  color: red;
+}
+
+#about-me {
+  color: white;
+  line-height: 25px;
+}
+
+#description {
+  letter-spacing: 1px;
+  padding-left: 5%;
+  padding-top: 25%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.red {
+  color: red;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid white;
+  text-align: center;
+  margin-left: 5%;
+  cursor: pointer;
+  background-color: red;
+}
+
+#cv{
+    color: white;
+    font-size: 15px;
+}
+
+
+

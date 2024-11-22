@@ -1,0 +1,130 @@
+@font-face {
+    font-family: geo-regular;
+    src: url(fonts/Geo-Regular.ttf) format(truetype);
+  }
+  
+  @font-face {
+    font-family: silkscreen-bold;
+    src: url(fonts/Silkscreen-Bold.ttf) format(truetype);
+  }
+  
+  @font-face {
+    font-family: bokor-regular;
+    src: url(fonts/Bokor-Regular.ttf) format(truetype);
+  }
+
+  #contact{
+    object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  }
+
+  .hero {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    background-size: fill;
+    background-position: center;
+  }
+  
+  #web-logo {
+    padding-left: 5%;
+    font-family: "Bokor-Regular";
+    font-size: 50px;
+    color: white;
+    cursor: wait;
+    letter-spacing: 3px;
+  }
+  
+  #me {
+    color: red;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1%;
+  }
+  
+  .navigation {
+    height: 25px;
+    padding-right: 5px;
+  }
+  
+  ul {
+    display: flex;
+    padding-right: 2%;
+    font-weight: bold;
+    font-family: cursive;
+  }
+  
+  ul a:hover {
+    color: white;
+  }
+  
+  li {
+    padding: 10px 10px;
+    list-style: none;
+  }
+  
+  ul li a {
+    color: red;
+    text-decoration: none;
+    display: flex;
+  align-items: center;
+  }
+
+  .description{
+    text-align: center;
+  }
+
+  #questions{
+    color: white;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+
+  #question-mark{
+    font-size: 75px;
+    color: red;
+  }
+
+  #feel-free{
+    color: white;
+    font-size: 25px;
+  }
+
+  .day-time{
+    color: red;
+  }
+
+  #at-the-rate{
+    color: red;
+  }
+
+ .contact1{
+    padding-left: 5%;
+    padding-right: 5%;
+ }
+
+ .contact2{
+    padding-left: 5%;
+    padding-right: 5%;
+ }
+
+ .contact-images{
+    height: 75px;
+ }
+
+ .contact-headings{
+    color: white;
+ }
+
+ .contact-paras{
+    color: white;
+ }
